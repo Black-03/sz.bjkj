@@ -1,0 +1,336 @@
+body {
+  font-family: "Microsoft Yahei";
+}
+.m-green {
+  color: #016920;
+}
+#header {
+  height: 140px;
+  background: url(../img/1.jpg) top center no-repeat;
+}
+#header > .container > .row {
+  width: 100%;
+}
+#header > .container > .row > .logo {
+  padding-top: 30px;
+}
+#header > .container > .row > .logo > a {
+  text-decoration: none;
+}
+#header > .container > .row > .logo > a > img:nth-child(2) {
+  padding-top: 15px;
+  padding-left: 16px;
+}
+#header > .container > .row > .h-line {
+  padding-top: 45px;
+  font-size: 18px;
+  color: #353535;
+  font-weight: bold;
+}
+#header > .container > .row > .h-line img {
+  width: 20px;
+  height: 22px;
+}
+#header > .container > .row > .h-line > .top-hotline {
+  margin-bottom: 0;
+}
+#header > .container > .row > .h-line > .top-brand {
+  font-size: 19px;
+  font-weight: bold;
+  color: #006C20;
+  letter-spacing: 1.2px;
+}
+#header-nav {
+  background-color: #13A43A;
+}
+#header-nav > .container > .row > .navbar-nav {
+  margin-left: 100px;
+}
+#header-nav > .container > .row > .navbar-nav > li {
+  width: 130px;
+  text-align: center;
+}
+#header-nav > .container > .row > .navbar-nav > li > a {
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  height: 45px;
+  background-color: #13A43A;
+}
+#header-nav > .container > .row > .navbar-nav > li > a:hover {
+  color: #ffffff;
+  background: rgba(7, 130, 42, 0.4);
+  border-radius: 6px;
+}
+#header-nav > .container > .row > .navbar-nav > .grouds {
+  margin-top: 6px;
+  height: 32px;
+  background: linear-gradient(to bottom, transparent 0%, #ffffff 60%, transparent 100%);
+  width: 1px;
+  opacity: .6;
+}
+#slide-home > .slide > .carousel-inner > .item {
+  background-position: center center;
+  height: 500px;
+  width: 100%;
+}
+#project {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#project > .container > .row > div > .nav-tabs {
+  width: 220px;
+  text-align: center;
+  border: 1px solid #DCDCDC;
+  border-radius: 5px;
+  padding: 0 15px 30px 5px;
+}
+#project > .container > .row > div > .nav-tabs > li {
+  margin-top: 18px;
+}
+#project > .container > .row > div > .nav-tabs > li > a {
+  font-size: 16px;
+  width: 210px;
+  color: #5B5B5B;
+  background-color: #DCDCDC;
+  border: 0;
+  border-radius: 5px;
+}
+#project > .container > .row > div > .nav-tabs > li:nth-child(1) a {
+  font-size: 20px;
+  width: 218px;
+  height: 50px;
+  line-height: 30px;
+  margin-top: -18px;
+  margin-left: -5px;
+  background-color: #14A83B;
+  color: #ffffff;
+}
+#project > .container > .row > div > .nav-tabs > li.active a {
+  border: 0;
+  background-color: #DCDCDC;
+}
+#project > .container > .row > div > .tab-content {
+  padding-left: 50px;
+  border: 1px solid #DCDCDC;
+  padding: 40px 0 0 20px;
+  border-radius: 5px;
+  height: 495px;
+}
+#project > .container > .row > div > .tab-content > div > div:nth-child(1) {
+  width: 305px;
+}
+#project > .container > .row > div > .tab-content > div > div:nth-child(2) {
+  width: 390px;
+  padding: 0 15px;
+}
+#project-show {
+  margin-bottom: 50px;
+}
+#project-show > .container > .row {
+  height: 790px;
+  position: relative;
+  overflow: hidden;
+}
+#project-show > .container > .row > .p-title {
+  height: 42px;
+  background-color: #14A83B;
+  text-align: center;
+  line-height: 42px;
+  margin-bottom: 30px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+#project-show > .container > .row > .p-title > a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+}
+#project-show > .container > .row > .p-shows {
+  width: 700%;
+  position: absolute;
+  top: 80px;
+  left: 0px;
+}
+#project-show > .container > .row > .p-shows > .p-show {
+  width: 950px;
+  float: left;
+  list-style: none;
+}
+#project-show > .container > .row > .p-shows > .p-show > .p-show-01 {
+  float: left;
+  width: 315px;
+  height: 355px;
+  text-align: center;
+  position: relative;
+}
+#project-show > .container > .row > .p-shows > .p-show > .p-show-01 > div {
+  width: 285px;
+}
+#project-show > .container > .row > .p-shows > .p-show > .p-show-01:hover .mess-show {
+  opacity: 1;
+  transition: 1s;
+}
+#project-show > .container > .row > .p-shows > .p-show > .p-show-01 > .mess-show {
+  opacity: 0;
+}
+#project-show > .container > .row > .p-shows > .p-show > .p-show-01 > div {
+  height: 315px;
+  border: 1px solid #E1E1E1;
+}
+#project-show > .container > .row > .p-shows > .p-show > .p-show-01 > div > a:nth-child(1) {
+  color: #ffffff;
+  display: block;
+  width: 70px;
+  height: 40px;
+  line-height: 40px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -35px;
+  margin-top: -20px;
+  opacity: 0;
+}
+#project-show > .container > .row > .p-shows > .p-show > .p-show-01 a {
+  text-decoration: none;
+  color: #000;
+}
+#partner > .container {
+  margin-bottom: 40px;
+}
+#partner > .container > .row {
+  overflow: auto;
+}
+#partner > .container > .row > .p-title {
+  height: 42px;
+  background-color: #14A83B;
+  text-align: center;
+  line-height: 42px;
+  margin-bottom: 30px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+#partner > .container > .row > .p-title > a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+}
+#partner > .container > .row > ul > li {
+  float: left;
+  list-style: none;
+  padding-left: 25px;
+  border-radius: 5px;
+}
+#partner > .container > .row > ul > li > img {
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px gray;
+}
+#partner > .container > .row > ul > li:nth-child(1) {
+  padding: 0px;
+}
+#footer {
+  height: 346px;
+  color: #ffffff;
+  background-color: #1F2A25;
+}
+#footer > .container > .row > div:nth-child(1) {
+  margin: 40px 325px;
+}
+#footer > .container > .row > div:nth-child(1) > a > img:nth-child(1) {
+  width: 32px;
+  height: 45px;
+}
+#footer > .container > .row > .mess-box > .mess-box-01 {
+  font-size: 17px;
+  width: 315px;
+}
+#footer > .container > .row > .mess-box > .mess-box-01 > p > img {
+  margin-top: 10px;
+}
+#footer > .container > .row > .mess-box > .mess-box-01 > p > span {
+  display: block;
+  width: 250px;
+  float: right;
+  margin-right: 18px;
+}
+#footer > .container > .row > .mess-box > .mess-box-02 {
+  font-size: 17px;
+  width: 315px;
+}
+#footer > .container > .row > .mess-box > .mess-box-02 > p > img {
+  float: left;
+  margin-top: 10px;
+}
+#footer > .container > .row > .mess-box > .mess-box-02 > p > span {
+  display: block;
+  width: 240px;
+  float: left;
+  padding-right: 25px;
+  margin-left: 20px;
+}
+#footer > .container > .row > .mess-box > .mess-box-02 > p > span > i {
+  font-style: normal;
+}
+#footer > .container > .row > .mess-box > .mess-box-03 {
+  font-size: 17px;
+  width: 315px;
+}
+#footer > .container > .row > .mess-box > .mess-box-03 > p {
+  margin-top: 20px;
+}
+#footer > .container > .row > .mess-box > .mess-box-03 > p > img {
+  float: left;
+  margin-top: 20px;
+}
+#footer > .container > .row > .mess-box > .mess-box-03 > p > span {
+  padding-left: 20px;
+  display: block;
+  width: 260px;
+  float: left;
+}
+#footer > .container > .row > .mess-box > .mess-box-03 > p > span > i {
+  width: 260px;
+  line-height: 60px;
+  font-style: normal;
+}
+#footer > .container > .row > .address-box {
+  width: 600px;
+  height: 150px;
+}
+#footer > .container > .row > .address-box > form > p {
+  line-height: 30px;
+}
+#footer > .container > .row > .address-box > form > p > input {
+  margin: 0 auto;
+  border: transparent;
+  color: whitesmoke;
+  background-color: transparent;
+  display: inline-block;
+  width: 270px;
+  height: 40px;
+  outline: none;
+  border-bottom: 1px solid #fff;
+}
+#footer > .container > .row > .address-box > form > p > input:nth-child(2) {
+  float: right;
+}
+#footer > .container > .row > .address-box > form > p:nth-child(2) > input {
+  width: 600px;
+}
+#footer > .container > .row > .address-box > form > p:nth-child(3) {
+  margin-top: 20px;
+  font-size: 13px;
+}
+#footer > .container > .row > .address-box > form > p:nth-child(3) > span {
+  line-height: 60px;
+}
+#footer > .container > .row > .address-box > form > p:nth-child(3) > input {
+  float: right;
+  width: 145px;
+  height: 45px;
+  border: 1px solid #ffffff;
+}
